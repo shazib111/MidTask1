@@ -39,4 +39,21 @@ namespace MidTask
         }
     }
 }
+public void DeleteAccount(int accountNumber)
+        {
+            for (int i = 0; i < myBank.Length; i++)
+            {
+                if (myBank[i].AccountNumber == accountNumber)
+                {
+                    myBank[i] = null;
+                    Console.WriteLine("Account Deleted..");
+                    break;
+                }
+            }
+
+        }
+        public void Transaction()
+    }
+
+}
             
